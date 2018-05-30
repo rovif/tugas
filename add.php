@@ -13,7 +13,7 @@
 						<form action="add1.php" method="POST" role="form" enctype="multipart/form-data">
 							<div class="form-group">
 								<label>NIM Mahasiswa</label>
-								<input name="nim" type="text" class="form-control" placeholder="Masukan NIM Mahasiswa" required="required">
+								<input name="nim" type="number" class="form-control" placeholder="Masukan NIM Mahasiswa" required="required">
 							</div>
 							<div class="form-group">
 								<label>Nama Mahasiswa</label>
