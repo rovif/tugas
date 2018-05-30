@@ -19,7 +19,7 @@
 						<div class="page-header">
 							<h3 align="center"><b>Update Nilai</b></h3>
 						</div>
-						<form action="nilai.php" method="POST" role="form" enctype="multipart/form-data">
+						<form action="enilai.php" method="POST" role="form" enctype="multipart/form-data">
 						<div class="form-group">
 						<?php  
  						include("kone.php");  
@@ -29,7 +29,7 @@
 						?>
 						<div class="form-group">
 								<label>Nama Mahasiswa</label>
-								<input name="absen" value="<?php echo $s['n_mahasiswa'];?>" type="text" class="form-control" id="" placeholder="Masukan Nilai absen" required="required">
+								<input name="nama" value="<?php echo $s['n_mahasiswa'];?>" type="text" class="form-control" id="" placeholder="Masukan Nilai absen" required="required">
 							</div>
 						<label>Tugas</label>
 						<input type="hidden" name="nim" value="<?php echo $id;?>" type="text" class="form-control" id="" required="required">
